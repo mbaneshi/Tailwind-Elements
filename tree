@@ -1,0 +1,1099 @@
+.
+├── CONTRIBUTE.md
+├── README.md
+├── config
+│   ├── build.cjs
+│   └── intro.cjs
+├── demo
+│   ├── dev
+│   │   ├── css
+│   │   │   └── new-prism.css
+│   │   └── js
+│   │       ├── dist
+│   │       │   ├── mdbsnippet.min.js
+│   │       │   └── mdbsnippet.min.js.map
+│   │       ├── new-prism.js
+│   │       └── src
+│   │           └── mdbsnippet.js
+│   └── sites
+│       ├── components
+│       │   ├── accordion.html
+│       │   ├── alerts.html
+│       │   ├── avatar.html
+│       │   ├── badges.html
+│       │   ├── bs_images.html
+│       │   ├── button-group.html
+│       │   ├── buttons.html
+│       │   ├── cards.html
+│       │   ├── carousel.html
+│       │   ├── chips.html
+│       │   ├── collapse.html
+│       │   ├── dividers.html
+│       │   ├── dropdown.html
+│       │   ├── figures.html
+│       │   ├── gallery.html
+│       │   ├── headers.html
+│       │   ├── headings.html
+│       │   ├── hover-effects.html
+│       │   ├── icons.html
+│       │   ├── images.html
+│       │   ├── jumbotron.html
+│       │   ├── link.html
+│       │   ├── list-group.html
+│       │   ├── login-form.html
+│       │   ├── mask.html
+│       │   ├── masks.html
+│       │   ├── modal.html
+│       │   ├── notification.html
+│       │   ├── offcanvas.html
+│       │   ├── paragraphs.html
+│       │   ├── placeholder.html
+│       │   ├── popover.html
+│       │   ├── progress.html
+│       │   ├── rating.html
+│       │   ├── register-form.html
+│       │   ├── scroll-button.html
+│       │   ├── shadows.html
+│       │   ├── social-buttons.html
+│       │   ├── spinners.html
+│       │   ├── stepper.html
+│       │   ├── tables.html
+│       │   ├── timeline.html
+│       │   ├── toast.html
+│       │   ├── tooltip.html
+│       │   ├── typography.html
+│       │   ├── video-carousel.html
+│       │   └── video.html
+│       ├── content-styles
+│       │   ├── animations.html
+│       │   └── colors.html
+│       ├── data
+│       │   └── charts.html
+│       ├── db
+│       │   ├── admin-charts-1.html
+│       │   ├── admin-charts-2.html
+│       │   ├── admin-charts-3.html
+│       │   ├── admin-complex-1.html
+│       │   ├── admin-complex-2.html
+│       │   ├── admin-complex-3.html
+│       │   ├── admin-forms-1.html
+│       │   ├── admin-forms-2.html
+│       │   ├── admin-forms-3.html
+│       │   ├── admin-maps-1.html
+│       │   ├── admin-maps-2.html
+│       │   ├── admin-maps-3.html
+│       │   ├── admin-navigation-1.html
+│       │   ├── admin-navigation-2.html
+│       │   ├── admin-navigation-3.html
+│       │   ├── admin-stats-1.html
+│       │   ├── admin-stats-2.html
+│       │   ├── admin-stats-3.html
+│       │   ├── admin-tables-1.html
+│       │   ├── admin-tables-2.html
+│       │   ├── admin-tables-3.html
+│       │   ├── banners-0.html
+│       │   ├── banners-1.html
+│       │   ├── banners-2.html
+│       │   ├── banners-3.html
+│       │   ├── contact-0.html
+│       │   ├── contact-1.html
+│       │   ├── contact-2.html
+│       │   ├── contact-3.html
+│       │   ├── contact-4.html
+│       │   ├── contact-5.html
+│       │   ├── contact-6.html
+│       │   ├── contact-7.html
+│       │   ├── contact-8.html
+│       │   ├── content-0.html
+│       │   ├── content-1.html
+│       │   ├── content-2.html
+│       │   ├── content-3.html
+│       │   ├── content-4.html
+│       │   ├── content-5.html
+│       │   ├── content-6.html
+│       │   ├── content-7.html
+│       │   ├── content-8.html
+│       │   ├── content-9.html
+│       │   ├── cta-0.html
+│       │   ├── cta-1.html
+│       │   ├── cta-2.html
+│       │   ├── cta-3.html
+│       │   ├── faq-0.html
+│       │   ├── faq-1.html
+│       │   ├── faq-2.html
+│       │   ├── faq-3.html
+│       │   ├── faq-4.html
+│       │   ├── faq-5.html
+│       │   ├── features-0.html
+│       │   ├── features-1.html
+│       │   ├── features-2.html
+│       │   ├── features-3.html
+│       │   ├── headers-0.html
+│       │   ├── headers-1.html
+│       │   ├── headers-2.html
+│       │   ├── headers-3.html
+│       │   ├── hero-1.html
+│       │   ├── hero-10.html
+│       │   ├── hero-11.html
+│       │   ├── hero-12.html
+│       │   ├── hero-2.html
+│       │   ├── hero-3.html
+│       │   ├── hero-4.html
+│       │   ├── hero-5.html
+│       │   ├── hero-6.html
+│       │   ├── hero-7.html
+│       │   ├── hero-8.html
+│       │   ├── hero-9.html
+│       │   ├── intro-1.html
+│       │   ├── intro-2.html
+│       │   ├── intro-3.html
+│       │   ├── logo-clouds-0.html
+│       │   ├── logo-clouds-1.html
+│       │   ├── logo-clouds-2.html
+│       │   ├── logo-clouds-3.html
+│       │   ├── megamenu-0.html
+│       │   ├── megamenu-1.html
+│       │   ├── megamenu-2.html
+│       │   ├── megamenu-3.html
+│       │   ├── megamenu-4.html
+│       │   ├── megamenu-5.html
+│       │   ├── megamenu-6.html
+│       │   ├── news-0.html
+│       │   ├── news-1.html
+│       │   ├── news-2.html
+│       │   ├── news-3.html
+│       │   ├── newsletter-0.html
+│       │   ├── newsletter-1.html
+│       │   ├── newsletter-2.html
+│       │   ├── newsletter-3.html
+│       │   ├── pricing-0.html
+│       │   ├── pricing-1.html
+│       │   ├── pricing-2.html
+│       │   ├── pricing-3.html
+│       │   ├── projects-0.html
+│       │   ├── projects-1.html
+│       │   ├── projects-2.html
+│       │   ├── projects-3.html
+│       │   ├── stats-0.html
+│       │   ├── stats-1.html
+│       │   ├── stats-2.html
+│       │   ├── stats-3.html
+│       │   ├── team-0.html
+│       │   ├── team-1.html
+│       │   ├── team-2.html
+│       │   ├── team-3.html
+│       │   ├── testimonials-0.html
+│       │   ├── testimonials-1.html
+│       │   ├── testimonials-2.html
+│       │   └── testimonials-3.html
+│       ├── forms
+│       │   ├── checkbox.html
+│       │   ├── datepicker.html
+│       │   ├── file-input.html
+│       │   ├── form-templates.html
+│       │   ├── input-group.html
+│       │   ├── inputs.html
+│       │   ├── radio.html
+│       │   ├── range.html
+│       │   ├── search.html
+│       │   ├── select.html
+│       │   ├── switch.html
+│       │   ├── textarea.html
+│       │   └── timepicker.html
+│       ├── methods
+│       │   └── ripple.html
+│       └── navigation
+│           ├── breadcrumbs.html
+│           ├── footer.html
+│           ├── navbar.html
+│           ├── pagination.html
+│           ├── pills.html
+│           ├── preview
+│           │   ├── sidenav-1.html
+│           │   ├── sidenav-2.html
+│           │   ├── sidenav-3.html
+│           │   ├── sidenav-4.html
+│           │   └── sidenav-5.html
+│           ├── scrollspy.html
+│           ├── sidenav.html
+│           └── tabs.html
+├── helpers
+│   ├── copyTeFiles.cjs
+│   ├── createTeStarter.cjs
+│   └── getPath.cjs
+├── index.html
+├── jest.config.js
+├── license
+├── package.json
+├── postcss.config.cjs
+├── site
+│   ├── README.md
+│   ├── archetypes
+│   │   └── default.md
+│   ├── assets
+│   │   └── css
+│   │       └── main.css
+│   ├── config
+│   │   ├── _default
+│   │   │   └── config.toml
+│   │   ├── production
+│   │   │   └── config.toml
+│   │   └── tst
+│   │       └── config.toml
+│   ├── content
+│   │   ├── _index.html
+│   │   ├── angular
+│   │   │   └── index.html
+│   │   ├── docs
+│   │   │   └── standard
+│   │   │       ├── _index.html
+│   │   │       ├── builder
+│   │   │       │   └── index.html
+│   │   │       ├── components
+│   │   │       │   ├── accordion
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── alerts
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── avatar
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── badges
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── button-group
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── buttons
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── cards
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── carousel
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── chips
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-js.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── collapse
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── dropdown
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── gallery
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── jumbotron
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── link
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── listgroup
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── modal
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── notifications
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── paragraphs
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── placeholders
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── popover
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-js.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── progress
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── rating
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── scroll-back-to-top-button
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── social-buttons
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── spinners
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── stepper
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── testimonials
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── timeline
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── toast
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── tooltip
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── video
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   └── video-carousel
+│   │   │       │       ├── index-ss.html
+│   │   │       │       └── index.html
+│   │   │       ├── confirm
+│   │   │       │   └── index.html
+│   │   │       ├── content-styles
+│   │   │       │   ├── animations
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-js.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── colors
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── dividers
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── figures
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── headings
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── hover-effects
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── icons
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── images
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── mask
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── shadows
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   └── typography
+│   │   │       │       ├── index-ss.html
+│   │   │       │       └── index.html
+│   │   │       ├── data
+│   │   │       │   ├── charts
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-js.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   └── tables
+│   │   │       │       ├── index-ss.html
+│   │   │       │       └── index.html
+│   │   │       ├── designblocks
+│   │   │       │   ├── admin
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── banners
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── charts
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── complex
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── contact
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── content
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── cta
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── faq
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── features
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── forms
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── headers
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── hero-sections
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── img1.png
+│   │   │       │   │   │   ├── img10.png
+│   │   │       │   │   │   ├── img11.png
+│   │   │       │   │   │   ├── img12.png
+│   │   │       │   │   │   ├── img13.png
+│   │   │       │   │   │   ├── img2.png
+│   │   │       │   │   │   ├── img3.png
+│   │   │       │   │   │   ├── img4.png
+│   │   │       │   │   │   ├── img5.png
+│   │   │       │   │   │   ├── img6.png
+│   │   │       │   │   │   ├── img7.png
+│   │   │       │   │   │   ├── img8.png
+│   │   │       │   │   │   └── img9.png
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── landing-page
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── logo-clouds
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── maps
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── mega-menu
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── navigation
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── news
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── newsletter
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── pricing
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── project-sections
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── stats
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── stats-admin
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── tables
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── team
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   └── testimonials
+│   │   │       │       ├── index-ss.html
+│   │   │       │       └── index.html
+│   │   │       ├── extended
+│   │   │       │   ├── 2-columns-layout
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── _index.html
+│   │   │       │   ├── background-image
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── center-text
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── colorpicker
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── colors
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── display-block
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── display-flex
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── display-none
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── example
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── flexbox
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── float-right
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── hero-icons
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── icons
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── lettter-spacing
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── opacity
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── overflow
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── overflow-hidden
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── parallax
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── position-absolute
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── position-fixed
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── position-relative
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── sticky-footer
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── sticky-header
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── switcher
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── text-bold
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── text-color
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── text-decoration
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── text-ellipsis
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── text-size
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── text-wrap
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── theme
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── vertically-align-text
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── visibility
+│   │   │       │   │   ├── assets
+│   │   │       │   │   │   ├── featured.jpg
+│   │   │       │   │   │   └── featured.webp
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   └── z-index
+│   │   │       │       ├── assets
+│   │   │       │       │   ├── featured.jpg
+│   │   │       │       │   └── featured.webp
+│   │   │       │       ├── index-ss.html
+│   │   │       │       └── index.html
+│   │   │       ├── forms
+│   │   │       │   ├── checkbox
+│   │   │       │   │   ├── index-js.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── datepicker
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-js.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── file-input
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── input-group
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── inputs
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── login-form
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── radio
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── range
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── registration-form
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── search
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── select
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-js.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── switch
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── templates
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── textarea
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   └── timepicker
+│   │   │       │       ├── a-ss.html
+│   │   │       │       ├── a.html
+│   │   │       │       ├── index-js.html
+│   │   │       │       ├── index-ss.html
+│   │   │       │       └── index.html
+│   │   │       ├── getting-started
+│   │   │       │   ├── changelog
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── contribute
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── dark-mode
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── optimization
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── quick-start
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── template.html
+│   │   │       │   └── theming
+│   │   │       │       ├── index-ss.html
+│   │   │       │       └── index.html
+│   │   │       ├── go
+│   │   │       │   ├── about.html
+│   │   │       │   ├── quick-start.html
+│   │   │       │   └── template.html
+│   │   │       ├── integrations
+│   │   │       │   ├── angular
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── django
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── express
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── laravel
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── next
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── nuxt
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── react
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── remix
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── solid
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── svelte
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   └── vue
+│   │   │       │       ├── index-ss.html
+│   │   │       │       └── index.html
+│   │   │       ├── methods
+│   │   │       │   └── ripple
+│   │   │       │       ├── a-ss.html
+│   │   │       │       ├── a.html
+│   │   │       │       ├── index-ss.html
+│   │   │       │       └── index.html
+│   │   │       ├── navigation
+│   │   │       │   ├── bradcrumbs
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── footer
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── headers
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── mega-menu
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── navbar
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── offcanvas
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── pagination
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── pills
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── scrollspy
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   ├── sidenav
+│   │   │       │   │   ├── a-ss.html
+│   │   │       │   │   ├── a.html
+│   │   │       │   │   ├── index-js.html
+│   │   │       │   │   ├── index-ss.html
+│   │   │       │   │   └── index.html
+│   │   │       │   └── tabs
+│   │   │       │       ├── a-ss.html
+│   │   │       │       ├── a.html
+│   │   │       │       ├── index-ss.html
+│   │   │       │       └── index.html
+│   │   │       └── templates
+│   │   │           └── index.html
+│   │   ├── general
+│   │   │   ├── license
+│   │   │   │   ├── index-js.html
+│   │   │   │   └── index.html
+│   │   │   └── newsletter
+│   │   │       └── index.html
+│   │   ├── how-to
+│   │   │   └── example
+│   │   │       ├── assets
+│   │   │       │   ├── featured.jpg
+│   │   │       │   └── featured.webp
+│   │   │       ├── index-ss.html
+│   │   │       └── index.html
+│   │   ├── learn
+│   │   │   ├── coming-soon
+│   │   │   │   └── index.html
+│   │   │   ├── lesson-1
+│   │   │   │   └── index.html
+│   │   │   ├── lesson-2
+│   │   │   │   └── index.html
+│   │   │   ├── lesson-3
+│   │   │   │   └── index.html
+│   │   │   └── lesson-4
+│   │   │       └── index.html
+│   │   ├── previews
+│   │   │   └── sidenav
+│   │   │       ├── sidenav-1
+│   │   │       │   └── index.html
+│   │   │       ├── sidenav-2
+│   │   │       │   ├── index-js.html
+│   │   │       │   └── index.html
+│   │   │       ├── sidenav-3
+│   │   │       │   ├── index-js.html
+│   │   │       │   └── index.html
+│   │   │       └── sidenav-4
+│   │   │           ├── index-js.html
+│   │   │           └── index.html
+│   │   ├── react
+│   │   │   └── index.html
+│   │   └── vue
+│   │       └── index.html
+│   ├── i7ifako7cpqqh1mas86472mzz9pmyp.html
+│   ├── layouts
+│   │   ├── _default
+│   │   │   ├── baseof.html
+│   │   │   ├── list.html
+│   │   │   ├── product.html
+│   │   │   ├── single.html
+│   │   │   └── tutorial.html
+│   │   ├── docs
+│   │   │   ├── list.html
+│   │   │   └── single.html
+│   │   ├── general
+│   │   │   ├── list.html
+│   │   │   └── single.html
+│   │   ├── how-to
+│   │   │   ├── list.html
+│   │   │   └── single.html
+│   │   ├── index.html
+│   │   ├── partials
+│   │   │   ├── footer
+│   │   │   │   ├── footer-docs.html
+│   │   │   │   ├── footer-scripts.html
+│   │   │   │   └── footer.html
+│   │   │   ├── head
+│   │   │   │   ├── head.html
+│   │   │   │   └── meta.html
+│   │   │   ├── header
+│   │   │   │   └── header.html
+│   │   │   ├── sidenav
+│   │   │   │   └── standard.html
+│   │   │   └── tutorial
+│   │   │       ├── tutorial-nav-link.html
+│   │   │       └── tutorial-navigation.html
+│   │   ├── previews
+│   │   │   ├── list.html
+│   │   │   └── single.html
+│   │   └── shortcodes
+│   │       ├── code.html
+│   │       ├── codecaption.html
+│   │       ├── docs-description.html
+│   │       ├── docs-seo_title.html
+│   │       ├── docs-subheading.html
+│   │       ├── docs-title.html
+│   │       ├── example.html
+│   │       ├── myshortcode.html
+│   │       ├── recaptcha-public-key.html
+│   │       └── twsnippet
+│   │           ├── code.html
+│   │           ├── demo.html
+│   │           ├── no-demo.html
+│   │           └── wrapper.html
+│   ├── logo.png
+│   ├── package.json
+│   ├── postcss.config.cjs
+│   ├── static
+│   │   ├── css
+│   │   │   ├── new-prism.css
+│   │   │   └── perfect-scrollbar.css
+│   │   ├── img
+│   │   │   ├── components-big.jpg
+│   │   │   ├── components-old.jpg
+│   │   │   ├── components.png
+│   │   │   ├── favicon.png
+│   │   │   ├── home
+│   │   │   │   └── main.png
+│   │   │   ├── logo.png
+│   │   │   ├── mdbgo-featured.jpg
+│   │   │   ├── tailwind-video.png
+│   │   │   └── test.jpg
+│   │   ├── js
+│   │   │   ├── new-prism.js
+│   │   │   ├── perfect-scrollbar.min.js
+│   │   │   ├── theme.js
+│   │   │   └── twsnippet.js
+│   │   └── search.json
+│   ├── tailwind.config.cjs
+│   └── themes
+│       └── ga-hugo-theme
+├── src
+│   ├── demo-files
+│   │   └── package.json
+│   ├── files
+│   │   ├── README.md
+│   │   ├── index.html
+│   │   └── package.json
+│   ├── js
+│   │   ├── autoinit
+│   │   │   ├── autoinitCallbacks.js
+│   │   │   ├── chartsInit.js
+│   │   │   ├── index.js
+│   │   │   └── jqueryInit.js
+│   │   ├── base-component.js
+│   │   ├── components
+│   │   │   ├── alert.js
+│   │   │   ├── button.js
+│   │   │   ├── carousel.js
+│   │   │   ├── chips
+│   │   │   │   ├── chip.js
+│   │   │   │   ├── index.js
+│   │   │   │   └── templates.js
+│   │   │   ├── collapse.js
+│   │   │   ├── dropdown.js
+│   │   │   ├── modal.js
+│   │   │   ├── offcanvas.js
+│   │   │   ├── popover.js
+│   │   │   ├── stepper.js
+│   │   │   ├── toast.js
+│   │   │   └── tooltip.js
+│   │   ├── content-styles
+│   │   │   └── animate.js
+│   │   ├── data
+│   │   │   └── chart
+│   │   │       ├── chartDefaults.js
+│   │   │       └── charts.js
+│   │   ├── dom
+│   │   │   ├── data.js
+│   │   │   ├── event-handler.js
+│   │   │   ├── manipulator.js
+│   │   │   └── selector-engine.js
+│   │   ├── forms
+│   │   │   ├── datepicker
+│   │   │   │   ├── date-utils.js
+│   │   │   │   ├── index.js
+│   │   │   │   └── templates.js
+│   │   │   ├── input.js
+│   │   │   ├── select
+│   │   │   │   ├── index.js
+│   │   │   │   ├── select-option.js
+│   │   │   │   ├── selection-model.js
+│   │   │   │   ├── templates.js
+│   │   │   │   └── util.js
+│   │   │   └── timepicker
+│   │   │       ├── index.js
+│   │   │       ├── templates.js
+│   │   │       └── utils.js
+│   │   ├── index.es.js
+│   │   ├── index.umd.js
+│   │   ├── methods
+│   │   │   └── ripple.js
+│   │   ├── navigation
+│   │   │   ├── scrollspy.js
+│   │   │   ├── sidenav.js
+│   │   │   └── tab.js
+│   │   ├── plugin.cjs
+│   │   ├── templates
+│   │   │   └── themeSwitcher.js
+│   │   ├── theme.js
+│   │   └── util
+│   │       ├── add-perfect-scrollbar-styles.js
+│   │       ├── backdrop.js
+│   │       ├── component-functions.js
+│   │       ├── focusTrap.js
+│   │       ├── index.js
+│   │       ├── keycodes.js
+│   │       ├── sanitizer.js
+│   │       ├── scrollbar.js
+│   │       ├── stack.js
+│   │       └── touch
+│   │           ├── index.js
+│   │           ├── swipe.js
+│   │           └── touchUtil.js
+│   └── scss
+│       └── tailwind.scss
+├── tailwind.config.cjs
+├── tree
+├── types
+│   ├── env.d.ts
+│   └── tw-elements.d.ts
+└── vite.config.js
+
+291 directories, 806 files
